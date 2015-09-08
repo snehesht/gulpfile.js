@@ -1,4 +1,4 @@
-Gulpfile.js 
+gulpfile.js 
 ------------
 
 My default development environment configuration for the gulp. 
