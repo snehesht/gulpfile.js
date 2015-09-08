@@ -1,14 +1,14 @@
-gulpfile.js 
+# gulpfile.js 
 ------------
 
 My default development environment configuration for the gulp. 
 
-Requirements: 
+### Requirements: 
 -------------
-gulp
-gulp-ruby-sass 
-gulp-react
+- gulp
+- gulp-ruby-sass 
+- gulp-react
 
-Install Instructions: 
+### Install Instructions: 
 ---------------------
-npm install --save-dev gulp gulp-ruby-sass gulp-react
+`npm install --save-dev gulp gulp-ruby-sass gulp-react`
