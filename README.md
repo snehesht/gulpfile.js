@@ -13,7 +13,8 @@ My default development environment configuration for the gulp.
 - gulp
 - gulp-ruby-sass 
 - gulp-react
+- gilp-webserver
 
 ### Install Instructions: 
 
-`npm install --save-dev gulp gulp-ruby-sass gulp-react`
+`npm install --save-dev gulp gulp-ruby-sass gulp-react gulp-webserver`
