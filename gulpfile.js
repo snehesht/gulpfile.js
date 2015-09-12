@@ -61,6 +61,4 @@ gulp.task('webserver', function() {
 
 
 //  Default Task
-gulp.task('default',function(){
-	console.log('Default Function');
-});
+gulp.task('default',['webserver','watch']);
