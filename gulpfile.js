@@ -2,6 +2,7 @@
 var gulp = require("gulp");
 var sass = require("gulp-ruby-sass");  // Compiling Sass files. Require ruby's sass
 var react = require('gulp-react'); 	// Compiling JSX to JS
+var webserver = require('gulp-webserver'); // Gulp webserver to serve build files
 
 
 // Define the paths of varioud folders
@@ -43,6 +44,19 @@ gulp.task('watch',function(){
 	// gulp.watch('path_to_file',['func_to_be_exec'])
 	gulp.watch(paths.jsx, ['compile-jsx']), // Watches for the JSX files.
 	gulp.watch(paths.sass_watch,['sass']) 	// Watches SASS files and compiles them
+});
+
+
+// Webserver on port 80 
+gulp.task('webserver', function() {
+  gulp.src(paths.dest) // Servers the Build directory files
+    .pipe(webserver({
+      host: 'localhost',
+      port: 80,
+      livereload: true,
+      directoryListing: false,
+      open: false
+    }));
 });
 
 
