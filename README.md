@@ -4,7 +4,7 @@
 My default development environment configuration for the gulp. 
 
 ### Download the gulpfile.js
-[Click here](https://raw.githubusercontent.com/snehesht/gulpfile.js/master/gulpfile.js)
+[Click here](https://raw.githubusercontent.com/snehesht/gulpfile.js/master/gulpfile.js){:target="_blank"}
 
 ` curl -O https://raw.githubusercontent.com/snehesht/gulpfile.js/master/gulpfile.js `
 
